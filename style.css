@@ -81,6 +81,14 @@ body {
     text-decoration: underline;
 }
 
+/* GENERAL PHONE */
+@media only screen and (max-width: 900px) {
+    .blog-container {
+        width: 80%;
+        padding: 2em;
+    }
+}
+
 /* CONTACT */
 .contact-info {
     text-align: left;
@@ -128,8 +136,8 @@ body {
 /* ARCHIVE */
 .archive-titles p,
 .archive-titles a {
-    font-size: 1.2em;
+    font-size: 1em;
     color: #333;
-    margin: 2em 1em;
+    margin: 2em 1em 3em;
     text-decoration: none;
 }
